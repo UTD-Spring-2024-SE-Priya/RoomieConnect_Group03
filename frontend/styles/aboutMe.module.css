@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+.wrapper {
+  width: 500px;
+  height: 650px;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins";
+}
+
+.backgroundImage {
+  background-image: url("/greenBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box {
+  width: 900px;
+  height: 1000px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 9%;
+  left: 30%;
+  transform: translateX(-50%);
+  z-index: 10;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+  opacity: 1;
+}
+
+.boxTwo {
+  width: 900px;
+  height: 1000px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 9%;
+  left: 70%;
+  transform: translateX(-50%);
+  z-index: 10;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+  opacity: 1;
+}
+
+.welcomeTitle {
+  font-weight: bold;
+  font-size: 30px;
+  color: #686868;
+  margin-left: -350px;
+  margin-top: -130px;
+}
+
+.welcomeMessage {
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  margin-left: -240px;
+  margin-top: 10px;
+}
+
+.genderQuestion {
+  font-weight: 900;
+  font-size: 20px;
+  color: black;
+  margin-left: -550px;
+  margin-top: 40px;
+}
+
+.ageQuestion {
+  font-weight: 900;
+  font-size: 20px;
+  color: black;
+  margin-left: -600px;
+  margin-top: 10px;
+}
+
+.locationQuestion {
+  font-weight: 900;
+  font-size: 20px;
+  color: black;
+  margin-left: -560px;
+  margin-top: 20px;
+}
+
+.hobbiesQuestion {
+  font-weight: 900;
+  font-size: 20px;
+  color: black;
+  margin-left: -530px;
+  margin-top: 100px;
+}
+
+.inputAgeBox {
+  position: relative;
+  min-width: 50%;
+  height: 50px;
+  margin: 30px 0;
+  margin-left: -530px;
+}
+
+.inputLocationBox {
+  position: relative;
+  min-width: 50%;
+  height: 50px;
+  margin: 30px 0;
+  margin-left: -530px;
+  margin-top: -70px;
+}
+
+.inputHobbiesBox {
+  position: relative;
+  min-width: 50%;
+  height: 50px;
+  margin: 30px 0;
+  margin-left: -530px;
+  margin-top: -70px;
+}
+
+.inputGenderBox {
+  position: relative;
+  min-width: 50%;
+  height: auto;
+  margin: 30px 0;
+  margin-left: -530px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 15px;
+}
+
+.inputHobbiesBox input {
+  width: 270%;
+  height: 300%;
+  background: transparent;
+  border: 1px solid lightgray;
+  outline: black;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+  margin-right: auto;
+  margin-left: 15px;
+  margin-top: 100px;
+}
+
+.inputextraInfoBox {
+  position: relative;
+  min-width: 50%;
+  height: 50px;
+  margin: 30px 0;
+  margin-left: -850px;
+  margin-top: 150px;
+}
+
+.inputextraInfoBox input {
+  width: 270%;
+  height: 300%;
+  background: transparent;
+  border: 1px solid lightgray;
+  outline: black;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+  margin-right: auto;
+  margin-left: 15px;
+  margin-top: 250px;
+}
+
+.inputAgeBox input {
+  width: 90%;
+  height: 100%;
+  background: transparent;
+  border: 1px solid lightgray;
+  outline: black;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+  margin-right: auto;
+  margin-left: 15px;
+}
+
+.inputLocationBox input {
+  width: 90%;
+  height: 100%;
+  background: transparent;
+  border: 1px solid lightgray;
+  outline: black;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+  margin-right: auto;
+  margin-left: 15px;
+  margin-top: 100px;
+}
+
+.wrapperTwo {
+  width: 500px;
+  height: 650px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins";
+}
+
+.extrovertedQuestion,
+.nightOwlQuestion,
+.cleanQuestion {
+  font-weight: 900;
+  font-size: 20px;
+  color: black;
+  position: absolute;
+}
+
+.extrovertedQuestion {
+  top: -170px;
+  left: -60%;
+}
+
+.nightOwlQuestion {
+  top: -20px;
+  left: -60%;
+}
+
+.cleanQuestion {
+  top: 150px;
+  left: -60%;
+}
+
+.scaleQuestion {
+  font-weight: light;
+  font-size: 18px;
+  color: gray;
+  text-align: center;
+  font-style: italic;
+  position: absolute;
+  left: -60%;
+  top: -140px;
+}
+
+.scaleTwoQuestion {
+  font-weight: light;
+  font-size: 18px;
+  color: gray;
+  text-align: center;
+  font-style: italic;
+  position: absolute;
+  left: -60%;
+  top: 10px;
+}
+
+.scaleThreeQuestion {
+  font-weight: light;
+  font-size: 18px;
+  color: gray;
+  text-align: center;
+  font-style: italic;
+  position: absolute;
+  left: -60%;
+  top: 180px;
+}
+
+.extraInfo {
+  font-weight: 900;
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  left: -300px;
+  top: 310px;
+}
+
+.scaleButton {
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.scaleButtonGroupOne {
+  position: absolute;
+  left: -40%;
+  transform: translateX(-50%);
+  top: -110px;
+  display: flex;
+  justify-content: center;
+}
+.scaleButtonGroupTwo {
+  position: absolute;
+  left: -40%;
+  transform: translateX(-50%);
+  top: 45px;
+  display: flex;
+  justify-content: center;
+}
+.scaleButtonGroupThree {
+  position: absolute;
+  left: -40%;
+  transform: translateX(-50%);
+  top: 210px;
+  display: flex;
+  justify-content: center;
+}
+
+.scaleButton:hover {
+  background-color: #53a165;
+}
+
+.logInButton {
+  background-color: #53a165;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 25px;
+  cursor: pointer;
+  width: 175px;
+  height: 65px;
+  align-self: center;
+  margin-bottom: 50px;
+}

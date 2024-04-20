@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Righteous&display=swap");
+
+.pageBackground {
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 100vh;
+  background-color: #ffffff;
+  z-index: 100;
+  padding: 20px;
+  text-align: left;
+  border-right: 2px solid #d3d3d3;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  margin-left: 50%;
+  padding-top: 200px;
+  margin-left: 50%;
+}
+
+.title {
+  margin: 20px;
+}
+
+.sidebarTitle {
+  font-family: "Righteous", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin-top: 70px;
+  font-size: 30px;
+  margin-left: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.navList li {
+  padding: 30px 0;
+}
+
+.navList li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.navList li a:hover {
+  color: #0070f3;
+}
+
+.darkCameraIconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.adddarkCameraLink {
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.signOutButton {
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 500px;
+  margin-left: 30px;
+}
+
+.linkContent {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  font-family: "Poppins", sans-serif;
+  margin-right: 900px;
+  margin-left: -250px;
+  margin-top: -20px;
+}
+
+.createPostHeader {
+  text-align: center;
+  margin-bottom: 5px;
+  margin-left: -10px;
+  margin-right: 240px;
+}
+
+.icon {
+  vertical-align: middle;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.sidebar .icon,
+.linkContent .icon {
+  width: 35px;
+  height: 35px;
+}
+
+.labelWithIcon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.labelWithIcon label {
+  flex: 0.5;
+  display: block;
+}
+
+.labelWithIcon input,
+.labelWithIcon select,
+.labelWithIcon textarea {
+  flex: 1;
+}
+
+.darkCameraHeader {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.formContainer h2 {
+  margin-bottom: 10px;
+  margin-left: 230px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.formContainer div {
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.formContainer label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.formContainer input[type="text"],
+.formContainer textarea,
+.formContainer select {
+  border: 1px solid #ccc;
+  outline: 1px solid #4d4d4e;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: outline 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.formContainer input[type="text"]:focus,
+.formContainer textarea:focus,
+.formContainer select:focus {
+  outline: 2px solid #0056b3;
+}
+
+.formContainer textarea {
+  height: 100px;
+}
+
+.formGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formGroup > div {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.formGroup > div:last-child {
+  margin-right: 0;
+}
+
+.formContainer div {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.formContainer div:last-child {
+  margin-right: 0;
+}
+
+.divider {
+  width: 100%;
+  border: 1px solid #d3d3d3;
+  margin: 5px 10px;
+}
+
+.postButton {
+  background-color: #53a165;
+  opacity: 0.7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 175px;
+}
+
+.genderIcon {
+  margin-right: 20px;
+  margin-left: -30px;
+  vertical-align: middle;
+  margin-top: -20px;
+  transform: translateY(-18px);
+  width: auto;
+  height: auto;
+}
+
+.darkCameraIconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}

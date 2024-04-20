@@ -1,0 +1,157 @@
+/* Login.module.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+.wrapper {
+  width: 500px;
+  height: 650px;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins";
+}
+
+.backgroundImage {
+  background-image: url("/greenBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.box {
+  width: 500px;
+  height: 650px;
+  background-color: #ffffff;
+  position: relative; /* You had position declared twice; keep it relative */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+  opacity: 1;
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  width: 75px;
+  height: 75px;
+  background-image: url("/house.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.loginTitle {
+  font-weight: bold;
+  font-size: 30px;
+  color: #595758;
+  margin-left: -15px;
+  margin-top: 50px;
+}
+
+.signUpPrompt {
+  font-weight: 700;
+  font-size: 16px;
+  color: blue;
+}
+
+.inputBox {
+  position: relative;
+  min-width: 120%;
+  height: 50px;
+  margin: 30px 0;
+  margin-left: -35px;
+}
+
+.inputBox input {
+  width: 90%;
+  height: 100%;
+  background: transparent;
+  border: 1px solid lightgray;
+  outline: black;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+  margin-right: auto;
+  margin-left: 15px;
+}
+
+.registerLink {
+  margin-top: 20px;
+  color: #595758;
+  font-weight: light;
+  font-size: 15px;
+  margin-left: -15px;
+}
+
+.registerLink a {
+  color: #007bff;
+}
+
+.accountPrompt {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.logInButton {
+  background-color: #53a165;
+  opacity: 0.7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: -15px;
+  width: 175px;
+}
+
+.passwordDescription {
+  font-size: 11px;
+  color: gray;
+  margin-top: -15px;
+  margin-left: -15px;
+}
+
+.RommieConnect {
+  font-size: 30px;
+  color: #595758;
+  margin-top: 150px;
+  margin-left: 40px;
+  font-weight: bold;
+}
+
+.topRightButtons {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.topLogInButton {
+  background-color: #ffedd8;
+  opacity: 1;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100px;
+}
